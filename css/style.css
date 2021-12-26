@@ -22,7 +22,7 @@ a {
 .main_header {
   color: #fff;
   background-color: black;
-  padding: 8px 16px;
+  padding: 8px 0;
   width: 100%;
   text-align: center;
 }
@@ -69,4 +69,81 @@ a {
 }
 .section_info h3 {
   font-size: 24px;
+}
+.section_2 {
+  padding: 0.01em 16px;
+}
+.section_2 hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.section_2 h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.section_2 .color_class {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.section_2 .red {
+  color: white;
+  background-color: red;
+}
+.section_2 .blue {
+  color: white;
+  background-color: #2196F3;
+}
+.section_2 .grey {
+  color: white;
+  background-color: #607d8b;
+}
+.section_2 .teal {
+  color: white;
+  background-color: #009688;
+}
+.section_2 .yellow {
+  color: #000;
+  background-color: #ffeb3b;
+}
+.section_2 .orange {
+  color: #000;
+  background-color: #ff9800;
+}
+.section_2 .subtitle {
+  text-align: center;
+  font-size: 18px;
+}
+.section_2 h5 {
+  font-size: 18px;
+}
+.section_2 .built_in div {
+  padding: 0.01em 16px;
+}
+.section_2 .built_in .half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #ccc;
+}
+.section_2 .built_in .half > div:nth-of-type(1) {
+  color: white;
+  background-color: #2196F3;
+}
+.section_2 .built_in .third {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #ccc;
+}
+.section_2 .built_in .third > div:nth-of-type(1) {
+  color: white;
+  background-color: #4CAF50;
+}
+.section_2 .built_in .quarter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+}
+.section_2 .built_in .quarter > div:nth-of-type(1) {
+  color: white;
+  background-color: #f44336;
 }

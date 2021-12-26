@@ -16,8 +16,23 @@ h6 {
   font-weight: 400;
   margin: 10px 0;
 }
+h2 {
+  font-size: 30px;
+}
 a {
   text-decoration: none;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+  font-size: 18px;
 }
 .main_header {
   color: #fff;
@@ -78,10 +93,6 @@ a {
   border-top: 1px solid #eee;
   margin: 20px 0;
 }
-.section_2 h2 {
-  text-align: center;
-  font-size: 30px;
-}
 .section_2 .color_class {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -110,40 +121,58 @@ a {
   color: #000;
   background-color: #ff9800;
 }
-.section_2 .subtitle {
-  text-align: center;
-  font-size: 18px;
-}
 .section_2 h5 {
   font-size: 18px;
 }
-.section_2 .built_in div {
+.section_2 .built_in {
   padding: 0.01em 16px;
 }
-.section_2 .built_in .half {
+.section_2 .half {
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #ccc;
 }
-.section_2 .built_in .half > div:nth-of-type(1) {
+.section_2 .half > div:nth-of-type(1) {
   color: white;
   background-color: #2196F3;
 }
-.section_2 .built_in .third {
+.section_2 .third {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid #ccc;
 }
-.section_2 .built_in .third > div:nth-of-type(1) {
+.section_2 .third > div:nth-of-type(1) {
   color: white;
   background-color: #4CAF50;
 }
-.section_2 .built_in .quarter {
+.section_2 .quarter {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   border: 1px solid #ccc;
 }
-.section_2 .built_in .quarter > div:nth-of-type(1) {
+.section_2 .quarter > div:nth-of-type(1) {
   color: white;
   background-color: #f44336;
+}
+.section_3 {
+  padding: 0.01em 16px;
+}
+.section_3 .header {
+  padding: 0.15px 16px;
+  color: white;
+  background-color: #607d8b;
+}
+.section_3 > div:nth-of-type(3) {
+  padding: 8px 16px;
+}
+.section_3 > div:nth-of-type(4) {
+  color: #fff !important;
+  background-color: #607d8b;
+  padding: 0.01em 16px;
+}
+.section_3 > div:nth-of-type(4) > h5 {
+  font-size: 18px;
+}
+.section_3 > div:nth-of-type(4) > p {
+  opacity: 0.6;
 }

@@ -14,8 +14,27 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 a {
     text-decoration: none
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
 }
 
 .main_header {
@@ -63,6 +82,7 @@ a {
     width: 100%;
     gap: 16px;
     grid-auto-rows: minmax(100px, auto);
+
     p {
        padding: 0.01em 16px;
     }
@@ -91,15 +111,9 @@ a {
     margin: 20px 0;
     }
 
-    h2 {
-        text-align: center;
-        font-size: 30px;
-    }
-
     .color_class{
         display: grid;
         grid-template-columns:repeat(6, 1fr);
-
     }
 
     .red {
@@ -132,53 +146,76 @@ a {
         background-color: #ff9800
     }
 
-    .subtitle {
-        text-align: center;
-        font-size: 18px;
-    }
-
     h5 {
         font-size: 18px;
     }
 
     .built_in {
+        padding: 0.01em 16px;
+    }
 
-        div {
-            padding: 0.01em 16px;
-        }
-
-        .half {
+    .half {
         display: grid;
         grid-template-columns: 1fr 1fr;
         border: 1px solid #ccc;
 
-            > div:nth-of-type(1) {
+        > div:nth-of-type(1) {
             color: white;
             background-color:#2196F3;
-            }
         }
+    }
 
-        .third {
+    .third {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         border: 1px solid #ccc;
 
-            > div:nth-of-type(1) {
+        > div:nth-of-type(1) {
             color: white;
             background-color: #4CAF50;
-            }
-
         }
 
-        .quarter {
+    }
+
+    .quarter {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         border: 1px solid #ccc;
 
-            > div:nth-of-type(1) {
+        > div:nth-of-type(1) {
             color: white;
             background-color: #f44336;
-            }
         }
     }
+
+}
+
+.section_3 {
+
+    padding: 0.01em 16px;
+
+    .header{
+        padding: 0.15px 16px;
+        color: white;
+        background-color: #607d8b;
+    }
+
+    > div:nth-of-type(3) {
+        padding: 8px 16px;
+    }
+
+    > div:nth-of-type(4) {
+        color: #fff!important;
+        background-color: #607d8b;
+        padding: 0.01em 16px;
+
+        > h5 {
+            font-size: 18px;
+        }
+
+        > p {
+            opacity: 0.60;
+        }
+    }
+
 }

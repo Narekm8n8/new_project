@@ -231,3 +231,30 @@ hr {
 .section_5 p {
   padding: 0.01em 16px;
 }
+.section_6 {
+  height: 1000px;
+  padding: 0.01em 16px;
+}
+.section_6 .tables {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section_6 table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+.section_6 tr {
+  border-bottom: 1px solid #ddd;
+}
+.section_6 thead > tr {
+  color: #fff;
+  background-color: black;
+}
+.section_6 th,
+.section_6 td {
+  padding-right: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+}

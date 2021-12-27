@@ -3,19 +3,29 @@
 }
 
 body {
-    font-family: Verdana,sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
+    margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Segoe UI",Arial,sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0;
 }
 
 h2 {
     font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
 }
 
 a {
@@ -45,7 +55,7 @@ hr {
     text-align: center;
 
     div {
-         padding: 32px 0;
+        padding: 32px 0;
 
     }
 
@@ -55,9 +65,10 @@ hr {
         font-weight: 900;
         font-size: 24px;
         padding: 8px 16px;
+
         &:hover {
             color: black;
-            background-color:#fff;
+            background-color: #fff;
         }
     }
 
@@ -71,31 +82,32 @@ hr {
 }
 
 .main {
-   margin-top: 16px;
+    margin-top: 16px;
 
 }
 
 .section_1 {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    text-align:center;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
     width: 100%;
     gap: 16px;
     grid-auto-rows: minmax(100px, auto);
 
     p {
-       padding: 0.01em 16px;
+        padding: 0.01em 16px;
     }
 }
 
 .section_info {
     border: 1px solid #cccccc;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%),
-    0 2px 10px 0 rgb(0 0 0 / 12%);
+        0 2px 10px 0 rgb(0 0 0 / 12%);
 
     i {
         font-size: 120px;
     }
+
     h3 {
         font-size: 24px;
     }
@@ -106,28 +118,28 @@ hr {
     padding: 0.01em 16px;
 
     hr {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
+        border: 0;
+        border-top: 1px solid #eee;
+        margin: 20px 0;
     }
 
-    .color_class{
+    .color_class {
         display: grid;
-        grid-template-columns:repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 
     .red {
         color: white;
-        background-color:red;
+        background-color: red;
     }
 
     .blue {
-        color:white;
+        color: white;
         background-color: #2196F3;
     }
 
     .grey {
-        color:white;
+        color: white;
         background-color: #607d8b;
     }
 
@@ -159,9 +171,9 @@ hr {
         grid-template-columns: 1fr 1fr;
         border: 1px solid #ccc;
 
-        > div:nth-of-type(1) {
+        >div:nth-of-type(1) {
             color: white;
-            background-color:#2196F3;
+            background-color: #2196F3;
         }
     }
 
@@ -170,7 +182,7 @@ hr {
         grid-template-columns: repeat(3, 1fr);
         border: 1px solid #ccc;
 
-        > div:nth-of-type(1) {
+        >div:nth-of-type(1) {
             color: white;
             background-color: #4CAF50;
         }
@@ -182,7 +194,7 @@ hr {
         grid-template-columns: repeat(4, 1fr);
         border: 1px solid #ccc;
 
-        > div:nth-of-type(1) {
+        >div:nth-of-type(1) {
             color: white;
             background-color: #f44336;
         }
@@ -194,28 +206,73 @@ hr {
 
     padding: 0.01em 16px;
 
-    .header{
+    .header {
         padding: 0.15px 16px;
         color: white;
         background-color: #607d8b;
     }
 
-    > div:nth-of-type(3) {
+    >div:nth-of-type(3) {
         padding: 8px 16px;
     }
 
-    > div:nth-of-type(4) {
-        color: #fff!important;
+    >div:nth-of-type(4) {
+        color: #fff !important;
         background-color: #607d8b;
         padding: 0.01em 16px;
 
-        > h5 {
+        >h5 {
             font-size: 18px;
         }
 
-        > p {
+        >p {
             opacity: 0.60;
         }
+    }
+
+}
+
+.section_4 {
+
+    .indigo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .theme_indigo {
+        box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+        .theme {
+            border-bottom: 1px solid #ddd;
+        }
+
+        >ul {
+            border-top: 1px solid #ccc;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border-top: 1px;
+
+            >li {
+                padding: 8px 16px;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    }
+
+    .indigo_blue {
+        padding: 0.01em 16px;
+        margin: 0;
+        color: #fff;
+        background-color: #3f51b5
+    }
+
+    .indigo_black {
+        padding: 0.01em 16px;
+        margin: 0;
+        color: #fff;
+        background-color: black
     }
 
 }

@@ -232,7 +232,6 @@ hr {
   padding: 0.01em 16px;
 }
 .section_6 {
-  height: 1000px;
   padding: 0.01em 16px;
 }
 .section_6 .tables {
@@ -257,4 +256,63 @@ hr {
   padding-top: 8px;
   padding-bottom: 8px;
   text-align: left;
+}
+.section_7 {
+  padding: 0.01em 16px;
+}
+.section_7 .form_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.section_7 .half {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 0.01em 16px;
+}
+.section_7 form {
+  padding: 0.01em 16px;
+}
+.section_7 .check_radio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section_7 .form_section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.section_7 .input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.section_7 .check,
+.section_7 .radio {
+  width: 24px;
+  height: 24px;
+  top: 6px;
+}
+.section_7 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.section_7 ul > li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.section_7 ul li:last-child {
+  border-bottom: none;
+}
+.section_7 .ul_border {
+  border: 1px solid #ccc;
+}
+.section_7 .ul_border li:first-child {
+  color: #fff;
+  background-color: #000000;
+}
+.section_7 .ul_border li:hover {
+  background-color: #ccc;
 }

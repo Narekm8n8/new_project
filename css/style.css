@@ -340,3 +340,19 @@ hr {
 .section_8 button:hover {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.section_9 div:nth-of-type(2) {
+  max-width: 800px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section_9 div:nth-of-type(2) img {
+  animation: opac 0.8s;
+}
+.section_9 div:nth-of-type(2) > a {
+  padding: 8px 16px;
+}
+.section_9 div:nth-of-type(2) > a:hover {
+  color: #fff;
+  background-color: #ccc;
+}

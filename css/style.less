@@ -371,7 +371,8 @@ hr {
         width: 100%;
     }
 
-    .check, .radio {
+    .check,
+    .radio {
         width: 24px;
         height: 24px;
         top: 6px;
@@ -387,7 +388,7 @@ hr {
             border-bottom: 1px solid #ddd;
         }
 
-         li:last-child {
+        li:last-child {
             border-bottom: none;
         }
     }
@@ -401,7 +402,38 @@ hr {
         }
 
         li:hover {
-            background-color:#ccc;
+            background-color: #ccc;
+        }
+    }
+}
+
+.section_8 {
+
+    padding: 0.01em 16px;
+
+    div:nth-of-type(2) {
+        width: 100%;
+        color: black;
+        background-color: #f1f1f1;
+
+        >div {
+            width: 5%;
+            color: #fff;
+            background-color: #000000;
+            padding: 8px 16px;
+        }
+
+    }
+
+    button {
+        color: #fff;
+        background-color: #000000;
+        border: none;
+        cursor: pointer;
+        padding: 8px 16px;
+
+        &:hover {
+            box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
         }
     }
 }
